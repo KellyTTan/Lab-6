@@ -24,10 +24,10 @@
 
 #navbar-container ul li {
   float: left;
+  padding: 10px 20px;
 }
 
 #navbar-container ul li a {
-  padding: 10px 20px;
   color: #fff;
   text-decoration: none;
 }
