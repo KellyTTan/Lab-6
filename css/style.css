@@ -44,19 +44,18 @@
   background-color: red;
   height: 100%;
   width: 20%;
-  list-style-type: none;
-  padding: 0;
 }
 
 #sidebar-container {
-  display: block;
-  background-color: #000;
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
 }
 
-#sidebar ul li {
-  text-align: center;
+#sidebar ul li a{
+  display: block;
   padding: 15px 0;
   color: #fff;
   text-decoration: none;
-  
+   background-color: #000;
 }
