@@ -1,29 +1,29 @@
 #main-navbar {
   background-color: blue;
-  overflow: hidden;   
+  overflow: hidden; 
+  width: 100%;
+  position: relative; 
 }
 
 #navbar-container {
   float: left;
-  width: 100%;
-  position: relative; 
+  position: relative;
+  left: 50%;
+  display: block;
 }
 
 #navbar-container ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  position: relative;
-  left: 50%;
   float: left;
+  positive: relative;
+  right: 50%;
   display: block;
 }
 
 #navbar-container ul li {
   float: left;
-  positive: relative;
-  right: 50%;
-  display: block;
 }
 
 #navbar-container ul li a {
@@ -33,7 +33,7 @@
 }
   
 
-#navbar-container #onpage a {
+#onpage a {
   background-color: #000;
   text-decoration: underline overline;
 }
