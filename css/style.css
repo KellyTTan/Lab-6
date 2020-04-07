@@ -16,6 +16,7 @@
   position: relative;
   left: 50%;
   float: left;
+  display: block;
 }
 
 #navbar-container ul li {
@@ -26,14 +27,13 @@
 }
 
 #navbar-container ul li a {
-  display: block;
   padding: 10px 20px;
   color: #fff;
   text-decoration: none;
 }
   
 
-#navbar-container #onpage a{
+#navbar-container #onpage a {
   background-color: #000;
   text-decoration: underline overline;
 }
