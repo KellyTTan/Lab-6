@@ -6,36 +6,34 @@
 #navbar-container {
   float: left;
   width: 100%;
-  position: relative;
-  left: 50;
-  right: 50%;
- 
+  position: relative; 
 }
 
 #main-navbar ul {
   list-style-type: none;
-  position: relative;
-  background-color: #000;
   margin: 0;
   padding: 0;
-  display: block;
+  position: relative;
+  left: 50%;
+  float: left;
 }
 
 #main-navbar ul li {
   float: left;
+  positive: relative;
+  right: 50%;
+  display: block;
 }
 
 #main-navbar ul li a {
   display: block;
-  float: left;
-  positive: relative;
   padding: 10px 20px;
   color: #fff;
   text-decoration: none;
   
 
 #onpage {
-  
+  background-color: #000;
   text-decoration: underline overline;
 }
 
