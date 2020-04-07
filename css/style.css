@@ -22,7 +22,6 @@
   position: relative;
   float: left;
   background-color: #000;
-  
 }
 
 #onpage {
@@ -36,9 +35,24 @@
 }
 
 #sidebar {
+  position: fixed;
+  right: 0%;
+  background-color: red;
+  height: 100%;
+  width: 20%;
+  list-style-type: none;
+  padding: 0;
 }
 
 #sidebar-container {
+  display: block;
+  background-color: #000;
 }
 
-
+#sidebar ul li {
+  text-align: center;
+  padding: 15px 0;
+  color: #fff;
+  text-decoration: none;
+  
+}
