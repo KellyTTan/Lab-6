@@ -9,7 +9,7 @@
   position: relative; 
 }
 
-#main-navbar ul {
+#navbar-container ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -18,14 +18,14 @@
   float: left;
 }
 
-#main-navbar ul li {
+#navbar-container ul li {
   float: left;
   positive: relative;
   right: 50%;
   display: block;
 }
 
-#main-navbar ul li a {
+#navbar-container ul li a {
   display: block;
   padding: 10px 20px;
   color: #fff;
@@ -33,7 +33,7 @@
 }
   
 
-#onpage {
+#onpage a{
   background-color: #000;
   text-decoration: underline overline;
 }
@@ -52,10 +52,10 @@
   padding: 0;
 }
 
-#sidebar ul li a{
+#sidebar-container ul li a{
   display: block;
   padding: 15px 0;
   color: #fff;
   text-decoration: none;
-   background-color: #000;
+  background-color: #000;
 }
