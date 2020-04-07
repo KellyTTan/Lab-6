@@ -46,7 +46,7 @@
   width: 20%;
 }
 
-#sidebar-container {
+#sidebar-container ul{
   list-style-type: none;
   text-align: center;
   padding: 0;
