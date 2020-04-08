@@ -25,11 +25,11 @@
 #navbar-container ul li{
   float: left;
   padding: 10px 20px;
+  background-color: #000;
 }
 
 #navbar-container ul li a {
   color: #fff;
-  background-color: #000;
   text-decoration: none;
 }
 
