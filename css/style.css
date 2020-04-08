@@ -22,16 +22,19 @@
   display: block;
 }
 
-#{
+#navbar-container ul li{
   float: left;
 }
 
 #navbar-container ul li a {
   color: #fff;
   background-color: #000;
-  text-decoration: underline overline;
   padding: 10px 20px;
   text-decoration: none;
+}
+
+#onpage {
+  text-decoration: underline overline;
 }
 
 #sidebar {
